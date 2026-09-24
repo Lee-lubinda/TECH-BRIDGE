@@ -1,0 +1,43 @@
+:root {
+    /* Primary Branding Colors */
+    --color-primary: #003333;
+    --color-secondary: #0090A6;
+    --color-accent-mint: #fff;
+
+    /* Neutral Background & Text Colors */
+    --color-background-light: #f4f9f9;
+    --color-background-card: #FFFFFF;
+    --color-text-main: #2D3748;
+    --color-text-muted: #627272;
+    --color-text-light: #FFFFFF;
+
+    /* UI Interactive States */
+    --color-link-hover: #007688;
+    --color-cta-hover: #02AF84;
+}
+
+body {
+    font-family: 'Plus jakarta', system-ui, -apple-system,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* header Styles */
+
+/* landing page Styles */
+
+/* problem Styles */
+
+/* problem Styles */
+
+/* proposed solution Styles */
+
+/* features and benefits Styles */
+
+/* how tech-bridge works Styles */
+
+/* team members Styles */
+
+/* contact us Styles */
+
+/* footer Styles */
+
+/* media queries Styles */
