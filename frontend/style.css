@@ -39,5 +39,129 @@ body {
 /* contact us Styles */
 
 /* footer Styles */
+/* Contact & Footer Styles - TechBridge Theme */
+.site-footer {
+  background-color: #01282c; /* Deep Dark Teal from slides */
+  color: #b3c5c7;
+  padding: 4rem 2rem 1.5rem 2rem;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 2.5rem;
+}
+
+/* Brand Text Styling */
+.brand-title {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0 0 0.2rem 0;
+}
+
+.brand-tagline {
+  display: block;
+  color: #00c9a7; /* Vibrant Mint accent */
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.brand-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #9cb3b5;
+  max-width: 320px;
+}
+
+/* Column Titles */
+.footer-col h3 {
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+/* Accent line under column headers */
+.footer-col h3::after {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #00c9a7; /* Mint accent line */
+  margin-top: 6px;
+}
+
+/* Navigation & Social Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.6rem;
+}
+
+.footer-links a {
+  color: #9cb3b5;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #00c9a7; /* Mint on hover */
+}
+
+/* Address Column */
+.footer-address {
+  font-style: normal;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #9cb3b5;
+}
+
+.email-link {
+  display: block;
+  margin-top: 0.8rem;
+}
+
+.email-link a {
+  color: #00c9a7; /* Mint email link */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.email-link a:hover {
+  text-decoration: underline;
+}
+
+/* Bottom Copyright Bar */
+.footer-bottom {
+  max-width: 1200px;
+  margin: 3rem auto 0 auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6a8285;
+}
+
+/* Responsive collapse for small screens */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
 
 /* media queries Styles */
