@@ -46,6 +46,80 @@ header{position:sticky;top:0;z-index:100}
 /* proposed solution Styles */
 
 /* features and benefits Styles */
+.features {
+    padding: 90px 6%;
+    background: var(--color-background-light);
+    color: var(--color-text-main);
+}
+
+.section-heading {
+    max-width: 760px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.section-tag {
+    color: var(--color-secondary);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.section-heading h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.2;
+    margin: 0;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+    margin-top: 35px;
+}
+
+.feature-card {
+    background: var(--color-background-card);
+    border: 1px solid rgba(0, 51, 51, 0.08);
+    border-radius: 18px;
+    padding: 28px 24px;
+    box-shadow: 0 10px 30px rgba(0, 51, 51, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 35px rgba(0, 51, 51, 0.1);
+}
+
+.feature-icon {
+    width: 56px;
+    height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: rgba(0, 144, 166, 0.12);
+    color: var(--color-primary);
+    font-weight: 800;
+    font-size: 0.9rem;
+    margin-bottom: 18px;
+}
+
+.feature-card h3 {
+    margin: 0 0 12px;
+    font-size: 1.3rem;
+    color: var(--color-primary);
+}
+
+.feature-card p {
+    margin: 0;
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    font-size: 0.98rem;
+}
 
 /* how tech-bridge works Styles */
 
@@ -60,4 +134,8 @@ header{position:sticky;top:0;z-index:100}
   .hamburger{display:block}
   .nav-links{display:none;position:absolute;top:70px;left:0;width:100%;background:var(--color-primary);flex-direction:column;padding:20px}
   .nav-links.show{display:flex}
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
 }
